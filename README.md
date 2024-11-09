@@ -21,7 +21,7 @@ pip install flash-attn==2.5.5
 - Modify ``path/to/datasets`` in ``scripts/exp_seq_seekr.sh``
 - Modify ``path/to/base_models`` in ``scripts/exp_seq_seekr.sh``
 
-## Continual Learning with SEEKR
+## Continual learning with SEEKR
 
 ```
 bash scripts/exp_seq_seekr.sh llama2 tracer1
@@ -30,25 +30,4 @@ bash scripts/exp_seq_seekr.sh llama2 tracer1
 ## Acknowledgement
 
 This project is built on top of [TRACE](https://github.com/BeyonderXX/TRACE)
-
-
-## Citation
-
-If you find SEEKR useful for your research and applications, please cite our paper:
-
-[//]: # (```latex)
-
-[//]: # (@article{wang2023trace,)
-
-[//]: # (  title={TRACE: A Comprehensive Benchmark for Continual Learning in Large Language Models},)
-
-[//]: # (  author={Wang, Xiao and Zhang, Yuansen and Chen, Tianze and Gao, Songyang and Jin, Senjie and Yang, Xianjun and Xi, Zhiheng and Zheng, Rui and Zou, Yicheng and Gui, Tao and others},)
-
-[//]: # (  journal={arXiv preprint arXiv:2310.06762},)
-
-[//]: # (  year={2023})
-
-[//]: # (})
-
-[//]: # (```)
 
